@@ -145,14 +145,6 @@ Todos los derechos pertenecen a sus respectivos dueños.
 
 ---
 
-## 👨‍💻 Autor
-
-**Luis Alejandro Sala Huerta**  
-Diseñador gráfico, desarrollador web independiente y creador de plataformas regionales digitales.
-
-Chile 🇨🇱
-
----
 
 ## ⭐ Apoya el proyecto
 
