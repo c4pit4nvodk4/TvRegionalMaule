@@ -134,6 +134,50 @@ h1{
   }
 }
 
+/* Redes Sociales */
+.separador{
+  border:none;
+  height:1px;
+  background:linear-gradient(90deg, rgba(255,255,255,0.06), rgba(255,255,255,0.12), rgba(255,255,255,0.06));
+  margin:20px 0;
+  border-radius:2px;
+}
+.titulo-redes{
+  font-weight:700;
+  margin:8px 0 10px 0;
+  color:var(--color-texto);
+  font-size:15px;
+  letter-spacing:1px;
+}
+.botones-redes{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-bottom:12px;
+}
+.boton-social{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:12px 16px;
+  border-radius:10px;
+  text-decoration:none;
+  color:white;
+  font-weight:600;
+  font-size:14px;
+  transition:all 0.2s ease;
+  box-shadow:0 4px 10px rgba(0,0,0,0.35);
+  justify-content:flex-start;
+}
+.boton-social i{
+  font-size:18px;
+  width:22px;
+}
+.facebook{ background: linear-gradient(135deg,#1877f2,#4ea3ff); }
+.instagram{ background: linear-gradient(135deg,#f58529,#dd2a7b); }
+.whatsapp{ background: linear-gradient(135deg,#25d366,#128c7e); }
+.boton-social:hover{ transform:translateY(-2px); box-shadow:0 8px 18px rgba(0,0,0,0.5); }
+
 </style>
 </head>
 
@@ -142,7 +186,7 @@ h1{
 <div class="contenedor">
 
 <img class="logo"
-src="IMAGES/LOGOS/LOGO.png">
+src="IMAGES/LOGOS/LOGO2.png">
 
 <h1>TV Regional Maule</h1>
 
@@ -195,6 +239,30 @@ Descargar para iOS
 </a>
 
 </div>
+  
+  <hr class="separador">
+
+  <div class="titulo-redes">REDES SOCIALES</div>
+
+  <div class="botones-redes">
+
+    <a class="boton-social facebook" href="https://www.facebook.com/profile.php?id=61588546683480" target="_blank">
+      <i class="fab fa-facebook-f"></i>
+      Facebook
+    </a>
+
+    <a class="boton-social instagram" href="https://www.instagram.com/tvregionalmaule/" target="_blank">
+      <i class="fab fa-instagram"></i>
+      Instagram
+    </a>
+
+    <a class="boton-social whatsapp" href="https://wa.me/56994461830" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      Whatsapp +56 9 9446 1830
+    </a>
+
+  </div>
+
   <!-- PIE DE PÁGINA -->
   <footer>
     Por Catalina - Todos los derechos reservados - Para agregar tu canal o radio, contáctame por WhatsApp al +56994461830 - ademas de Informar que el codigo fuente y aplicacion estan en venta, consultas a mi whatsapp
